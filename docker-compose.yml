@@ -1,0 +1,128 @@
+version: '3.7'
+services:
+  # master
+  redis1:
+    image: redis:latest
+    expose:
+      # redis node normal port
+      - 6379
+    command: redis-server /etc/redis-conf/conf/redis.conf
+    volumes:
+      # volume 标准，外部路径映射内部路径
+      - ./redis1:/etc/redis-conf
+    networks:
+      redis-sentinel-net:
+        ipv4_address: 172.22.1.10
+
+  sentinel1:
+    image: redis:latest
+    expose:
+      # redis sentinel normal port
+      - 26379
+    ports:
+      - "26379:26379"
+    volumes:
+      - ./sentinel1:/etc/redis-conf
+    command: redis-server /etc/redis-conf/sentinel.conf --sentinel
+    networks:
+      redis-sentinel-net:
+        ipv4_address: 172.22.1.11
+
+  redis2:
+    image: redis:latest
+    expose:
+      - 6379
+    command: redis-server /etc/redis-conf/conf/redis.conf
+    volumes:
+      # volume 标准，外部路径映射内部路径
+      - ./redis2:/etc/redis-conf
+    networks:
+      redis-sentinel-net:
+        ipv4_address: 172.22.1.20
+
+  sentinel2:
+    image: redis:latest
+    expose:
+      - 26379
+    ports:
+      - "26380:26379"
+    volumes:
+      - ./sentinel2:/etc/redis-conf
+    command: redis-server /etc/redis-conf/sentinel.conf --sentinel
+    networks:
+      redis-sentinel-net:
+        ipv4_address: 172.22.1.21
+
+  redis3:
+    image: redis:latest
+    expose:
+      - 6379
+    command: redis-server /etc/redis-conf/conf/redis.conf
+    volumes:
+      # volume 标准，外部路径映射内部路径
+      - ./redis3:/etc/redis-conf
+    networks:
+      redis-sentinel-net:
+        ipv4_address: 172.22.1.30
+
+  sentinel3:
+    image: redis:latest
+    expose:
+      - 26379
+    ports:
+      - "26381:26379"
+    volumes:
+      # 必须使用 绝对路径 /etc 下的文件夹，不能直接使用 etc
+      - ./sentinel3:/etc/redis-conf
+    command: redis-server /etc/redis-conf/sentinel.conf --sentinel
+    networks:
+      redis-sentinel-net:
+        ipv4_address: 172.22.1.31
+
+  redis4:
+    image: redis:latest
+    expose:
+      # redis node normal port
+      - 6379
+    command: redis-server /etc/redis-conf/conf/redis.conf
+    volumes:
+      # volume 标准，外部路径映射内部路径
+      - ./redis4:/etc/redis-conf
+    networks:
+      redis-sentinel-net:
+        ipv4_address: 172.22.1.40
+
+  redis5:
+    image: redis:latest
+    expose:
+      # redis node normal port
+      - 6379
+    command: redis-server /etc/redis-conf/conf/redis.conf
+    volumes:
+      # volume 标准，外部路径映射内部路径
+      - ./redis5:/etc/redis-conf
+    networks:
+      redis-sentinel-net:
+        ipv4_address: 172.22.1.50
+
+  redis6:
+    image: redis:latest
+    expose:
+      # redis node normal port
+      - 6379
+    command: redis-server /etc/redis-conf/conf/redis.conf
+    volumes:
+      # volume 标准，外部路径映射内部路径
+      - ./redis6:/etc/redis-conf
+    networks:
+      redis-sentinel-net:
+        ipv4_address: 172.22.1.60
+
+networks:
+  redis-sentinel-net:
+    driver: bridge
+    #external: true
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.22.1.0/24

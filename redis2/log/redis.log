@@ -1,0 +1,152 @@
+1:C 10 Nov 2019 09:59:51.835 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 10 Nov 2019 09:59:51.837 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 10 Nov 2019 09:59:51.839 # Configuration loaded
+1:C 10 Nov 2019 10:17:51.498 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 10 Nov 2019 10:17:51.524 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 10 Nov 2019 10:17:51.553 # Configuration loaded
+1:M 10 Nov 2019 10:17:51.652 * No cluster configuration found, I'm 7979ba1902bc0e282e714a67dd74ec089348f5c6
+1:M 10 Nov 2019 10:17:51.670 * Running mode=cluster, port=6379.
+1:M 10 Nov 2019 10:17:51.677 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 10 Nov 2019 10:17:51.683 # Server initialized
+1:M 10 Nov 2019 10:17:51.694 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 10 Nov 2019 10:17:51.709 * Ready to accept connections
+1:signal-handler (1573381180) Received SIGTERM scheduling shutdown...
+1:M 10 Nov 2019 10:19:40.665 # User requested shutdown...
+1:M 10 Nov 2019 10:19:40.724 * Calling fsync() on the AOF file.
+1:M 10 Nov 2019 10:19:40.753 # Redis is now ready to exit, bye bye...
+1:C 10 Nov 2019 10:43:17.878 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 10 Nov 2019 10:43:17.884 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 10 Nov 2019 10:43:17.896 # Configuration loaded
+1:M 10 Nov 2019 10:43:17.912 * Node configuration loaded, I'm 7979ba1902bc0e282e714a67dd74ec089348f5c6
+1:M 10 Nov 2019 10:43:17.920 * Running mode=cluster, port=6379.
+1:M 10 Nov 2019 10:43:17.925 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 10 Nov 2019 10:43:17.936 # Server initialized
+1:M 10 Nov 2019 10:43:17.941 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 10 Nov 2019 10:43:17.957 * Ready to accept connections
+1:M 10 Nov 2019 10:43:28.012 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:43:28.310 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:43:29.146 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:43:38.067 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:43:38.363 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:43:39.168 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:43:48.142 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:43:48.373 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:43:49.233 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:43:58.147 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:43:58.397 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:43:59.240 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:08.237 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:08.417 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:09.307 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:18.291 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:18.465 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:19.377 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:28.335 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:28.532 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:29.465 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:38.396 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:38.605 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:39.472 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:48.445 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:48.613 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:49.481 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:58.475 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:58.618 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:44:59.566 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:08.531 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:08.636 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:09.589 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:18.572 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:18.647 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:19.643 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:28.587 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:28.735 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:29.672 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:38.638 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:38.754 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:39.727 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:48.644 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:48.825 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:49.756 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:58.746 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:58.876 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:45:59.858 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:08.750 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:08.919 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:09.863 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:18.785 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:19.003 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:19.899 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:28.791 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:29.038 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:29.929 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:38.810 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:39.089 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:39.999 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:48.888 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:49.128 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:50.058 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:58.903 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:46:59.124 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:00.105 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:08.928 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:09.130 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:10.118 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:18.972 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:19.222 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:20.194 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:28.978 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:29.315 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:30.241 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:39.003 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:39.360 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:40.281 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:49.046 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:49.413 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:50.347 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:59.107 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:47:59.451 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:00.368 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:09.154 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:09.509 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:10.437 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:19.204 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:19.558 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:20.479 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:29.274 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:29.654 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:30.495 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:39.354 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:39.683 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:40.520 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:49.421 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:49.782 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:50.554 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:59.420 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:48:59.820 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:00.566 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:09.433 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:09.899 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:10.611 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:19.429 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:19.924 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:20.615 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:29.467 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:29.976 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:30.623 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:39.552 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:40.021 # CONFIG REWRITE executed with success.
+1:M 10 Nov 2019 10:49:40.676 # CONFIG REWRITE executed with success.
+1:signal-handler (1573382988) Received SIGTERM scheduling shutdown...
+1:M 10 Nov 2019 10:49:48.570 # User requested shutdown...
+1:M 10 Nov 2019 10:49:48.574 * Calling fsync() on the AOF file.
+1:M 10 Nov 2019 10:49:48.577 # Redis is now ready to exit, bye bye...
+1:C 10 Nov 2019 10:50:10.154 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 10 Nov 2019 10:50:10.157 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 10 Nov 2019 10:50:10.163 # Configuration loaded
+1:M 10 Nov 2019 10:50:10.181 * Node configuration loaded, I'm 7979ba1902bc0e282e714a67dd74ec089348f5c6
+1:M 10 Nov 2019 10:50:10.189 * Running mode=cluster, port=6379.
+1:M 10 Nov 2019 10:50:10.201 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 10 Nov 2019 10:50:10.212 # Server initialized
+1:M 10 Nov 2019 10:50:10.231 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 10 Nov 2019 10:50:10.236 * Ready to accept connections
